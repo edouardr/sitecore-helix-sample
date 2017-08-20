@@ -16,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{8EC71139
 		package.json = package.json
 		publishsettings.targets = publishsettings.targets
 		README.md = README.md
+		sonar-project.properties = sonar-project.properties
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{E12A3D0C-B9EA-4C65-B9A4-7000A6E63B33}"
