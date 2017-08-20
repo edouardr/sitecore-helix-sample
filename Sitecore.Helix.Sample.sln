@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{EC2BA2F5-0735-4080-83D6-53A33527699B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{147FC2A2-14CD-4684-88D6-84B8857B463A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{24CC6C51-DF56-4481-8BFC-9C1CF62F93F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{8EC71139-8EC5-4F57-98C2-050AEEB1C29E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		nuget.config = nuget.config
+		package.json = package.json
+		publishsettings.targets = publishsettings.targets
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{E12A3D0C-B9EA-4C65-B9A4-7000A6E63B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Coffee.Website", "src\Project\Website\code\Project.Coffee.Website.csproj", "{292E7962-7B56-437A-9984-66B331FBCCD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{292E7962-7B56-437A-9984-66B331FBCCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292E7962-7B56-437A-9984-66B331FBCCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292E7962-7B56-437A-9984-66B331FBCCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292E7962-7B56-437A-9984-66B331FBCCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E12A3D0C-B9EA-4C65-B9A4-7000A6E63B33} = {24CC6C51-DF56-4481-8BFC-9C1CF62F93F3}
+		{292E7962-7B56-437A-9984-66B331FBCCD5} = {E12A3D0C-B9EA-4C65-B9A4-7000A6E63B33}
+	EndGlobalSection
+EndGlobal
